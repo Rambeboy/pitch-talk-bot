@@ -15,7 +15,7 @@
 
 - Git
 - Node JS
-- TELEGRAM_APP_ID & TELEGRAM_APP_HASH Get it from [Here](https://my.telegram.org/auth?to=apps) (REQUIRED IF YOU WANT USE SESSIONS)
+- TELEGRAM_APP_ID & TELEGRAM_APP_HASH Get it from [Here](https://my.telegram.org/auth?to=apps) (REQUIRED IF YOU WANT USE SESSIONS).
 
 ## BOT FEATURE
 
@@ -117,19 +117,19 @@ To update bot follow this step :
 
 ## SETUP ACCOUNTS
 
-1. Run bot `npm run start`
+1. Run bot `npm run start`.
 2. Choose option `1` to create account
-3. Choose account type `Query` or `Sessions`
-4. `Session` Type
-- Enter Account Name
-- Enter your phone number starting with countrycode ex : `+628xxxxxxxx`
-- You will be asked for verification code and password (if any)
-- Start The bot Again after account creation complete
-5. `Query` Type
-- Enter Account Name
-- Enter Telegram Query (you can get query by opening bot app on browser > inspect element > storage / application > session storage > telegram init params > copy tg web app data value)
-- Start The bot Again after account creation complete
-6. After bot started choose option 3 start bot
+3. Choose account type `Query` or `Sessions`.
+4. `Session` Type.
+- Enter Account Name.
+- Enter your phone number starting. with countrycode ex : `+628xxxxxxxx`
+- You will be asked for verification code and password (if any).
+- Start The bot Again after account creation complete.
+5. `Query` Type.
+- Enter Account Name.
+- Enter Telegram Query (you can get query by opening bot app on browser > inspect element > storage / application > session storage > telegram init params > copy tg web app data value).
+- Start The bot Again after account creation complete.
+6. After bot started choose option `3` start bot.
 
 ## SESSION TROUBLESHOOT
 
@@ -149,7 +149,7 @@ Don't use bot with `session` type if you using telegram account that bought from
 
 This bot can use Telegram Query and Telegram Sessions. if you want to use sessions, and ever use one of my bot that use telegram sessions, you can just copy the `accounts` folder to this bot. Also for the telegram APP ID and Hash you can use it from another bot. If you want to use Telegram Query, get your query manually.
 
-if you got error `Invalid ConstructorId` try to run this `npm i telegram@2.22.2`
+if you got error `Invalid ConstructorId` try to run this `npm i telegram@2.22.2`.
 
 ## LICENSE
 
